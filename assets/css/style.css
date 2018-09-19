@@ -17,6 +17,9 @@
 	border: 1px solid green;
 }
 
+.d-flex {
+	border-radius: 1px solid yellow;
+}
 
 
 /******* CONTAINERS ********/
