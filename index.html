@@ -11,6 +11,9 @@
 <!-- fontawesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+
 <!-- animate css-->
 <link rel="stylesheet" href="assets/css/animate.css">
 
@@ -23,17 +26,54 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-expand-md sticky-top">
-	<ul class="navbar-nav" mr-atuo>
-		<li class="nav-item">
-			<a class="nav-link" href="#home"></a>
-			<a class="nav-link" href="#about"></a>
-			<a class="nav-link" href="#services"></a>
-			<a class="nav-link" href="#reviews"></a>
-			<a class="nav-link" href="#contact"></a>
-		</li>
-	</ul>
-</nav>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+      <a href="#" class="navbar-brand">
+        <i class="fas fa-american-sign-language-interpreting">
+          Company Name
+        </i>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              HOME
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">
+              ABOUT
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">
+              SERVICES
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">
+              REVIEWS
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </div>
 
 
 
@@ -125,82 +165,6 @@
 
 
 
-			<div class="container-fluid" id="contact">
-				<div class="row py-5">
-					<div class="col">
-						<div class="d-flex justify-content-center">
-							<h1 class="text-center">Contact Us</h1>
-						</div>
-
-
-						<!-- nested container -->
-						<div class="container">
-						  <div class="row">
-						    <!-- left margin -->
-
-						    <!-- contact col -->
-						    <div class="col-lg-1"></div>
-
-
-						    <!-- google map -->
-						    <div class="col-lg-5 mt-5">
-
-						        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15441.238939659814!2d121.039251!3d14.6383512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7069226eb51%3A0x755669d45eed60bd!2sPhilippine+Children&#39;s+Medical+Center!5e0!3m2!1sen!2sph!4v1537353780940" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-						    </div>
-
-
-						     <!-- contact form -->
-						     <div class="col-lg-5 mt-5">
-						        <form class="form-horizontal">
-						            <h1 class="text-center">Contact Us</h1>
-
-						            <!-- form group items -->
-						            <div class="form-group mt-5">
-						                <div class="col-lg-12">
-						                  <input id="fullname" name="fullname" type="text" placeholder="Full Name" class="form-control">
-						                </div>
-						              </div>
-						            
-						            <div class="form-group mt-5">
-						                <div class="col-lg-12">
-						                  <input id="email" name="email" type="email" placeholder="Email" class="form-control">
-						                </div>
-						            </div>
-						         
-						         <div class="form-group mt-5">
-						              <div class="col-lg-12">
-						                  <textarea class="form-control" rows="10" placeholder="Write your message here"></textarea>
-						              </div>
-						          </div>
-
-
-						          <div class="form-group mt-5">
-						                <button class="btn btn-primary btn-lg btn-block text-uppercase">Send</button>
-						            </div>
-
-
-						        </form>
-						    </div>
-						    <!-- end of contact col -->
-
-						    <div class="col-lg-1"></div>
-						    <!-- right margin -->
-						 </div>
-						  <!-- end of contact nested row-->
-						</div>
-						<!-- end of contact nested container -->
-
-							
-						</div>
-					<!-- end of contact col -->
-				</div>
-				<!-- end of contact main row container -->
-			</div>
-			<!-- end of contact main container -->
-
-
-
 
 		</div>
 		<!-- end of content container -->
@@ -217,29 +181,38 @@
 
 
 <footer class="containter-fluid" id="footer">
-	<div class="row">
-	<div class="col-lg-1"></div>
-	<div class="col-lg-10">
-		
-		<!-- nested -->
-		<div class="d-flex">
-			<div class="flex-row flex-fill footer___text">
-				Lorem ipsum dolor sit amet, consectetur ad
+	<div class="row py-5 px-5 bg-dark">
+		<div class="col-lg-12 text-left">
+			
+			<!-- nested -->
+			<div class="d-flex">
+				<div class="flex-row flex-fill footer___text">
+					<p class="font-weight-heavy">About The Company</p>
+					<div class="flex-column">Lorem ipsum dola. Lorem ipsum dola. Lorem ipsum dola. Lorem ipsum dola. Lorem ipsum dola.</div>
+				</div>
+
+				<div class="flex-row flex-fill footer___text">
+					<p class="font-weight-heavy">Keep Connected</p>
+					<a href="#"><i class="fab fa-facebook-f fa-2x mx-2"></i></a>
+					<a href="#"><i class="fab fa-instagram fa-2x mx-2"></i></a>
+					<a href="#"><i class="fab fa-twitter fa-2x mx-2"></i></a>
+				</div>
+
+
+				<div class="flex-row flex-fill footer___social">
+					<p class="font-weight-heavy">Contact Information</p>
+					<div class="flex-column"><i class="fas fa-home"></i>&nbsp;Ayala, Makati PH</div>
+					<div class="flex-column"><i class="fas fa-mobile-alt"></i>&nbsp;123-456-24</div>
+					<div class="flex-column"><i class="far fa-envelope-open"></i></i>&nbsp;sample@gmail.com</div>
+				</div>
 			</div>
 
-			<div class="flex-row flex-fill">
-				Lorem ipsum dolor sit amet, consectetur ad
-			</div>
-
-			<div class="flex-row flex-fill text-right footer___social">
-				<div class="flex-column">Lorem ipsum dolor sit amet, consectetur ad</div>
-				<div class="flex-column">Lorem ipsum dolor sit amet, consectetur ad</div>
-				<div class="flex-column">Lorem ipsum dolor sit amet, consectetur ad</div>
-			</div>
 		</div>
-
 	</div>
-	<div class="col-lg-1"></div>
+	
+	<div class="d-flex flex-row px-5 bg-muted">
+		<div class="flex-fill">&copy; 2018 Company Name | Designed by <a href="#">Joyce Perez</a></div> 
+		<div class="flex-fill text-right"><a href="#">Terms and Conditions</a>&nbsp;|&nbsp;<a href="#">Privacy Policy</a></div>
 	</div>
 </footer>
 		
