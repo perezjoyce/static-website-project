@@ -77,6 +77,33 @@
 }
 
 
+/******* GALLERY ********/
+
+
+#gallery .card {
+	box-shadow: 1px 1px 10px 4px gray;
+	border-radius: 0;
+	border-color: 1px solid white;
+	width: auto;
+}
+
+
+#gallery .card:hover {
+	animation: fadeIn;
+	animation-duration: 2s;
+	animation-delay: 0s;
+}
+
+.myframe {
+	width: 100%;
+	height: 500px;
+}
+
+
+
+
+
+
 /******* FOOTER ********/
 
 
